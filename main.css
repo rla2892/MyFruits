@@ -82,20 +82,43 @@ section .sub.title{
 /* 본문 품목 */
 section .stall{
     margin-top: 5rem;
+    /* margin: ; */
+    /* margin: 5rem auto; */
+    /* margin-right: -10rem; */
+    position: relative;
+    text-align: center;
 }
 section .stall .item{
     float: left;
     /* border: solid 1px #AAA; */
-    width: 30rem;
-    height: 30rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
+    /* width: 30rem; */
+    width: 28vw;
+    height: 25vw;
+    /* margin-left: 2rem; */
+    margin-right: 2vw;
+    margin-bottom: 3rem;
 
     position: relative;
     
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
+    text-align: center;
+}
+section .stall .item:nth-of-type(3n){
+    /* float: right; */
+    margin-right: 0vw;
+}
+section .stall .item:nth-of-type(3n-1){
+    /* float: right; */
+    /* margin-right: 1vw; */
+    /* transform: translateX(20%); */
+    /* transform: ; */
+    /* left: 10% */
+    /* position: absolute; */
+    /* margin-left: 5.5vw; */
+    /* position: ; */
+    /* position: fixed; */
 }
 section .stall .item:hover{
     transform: scale(1.1);
