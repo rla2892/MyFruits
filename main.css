@@ -58,7 +58,13 @@ header .right .menu{
     font-weight: 700;
 
     margin-left: 2.2rem;
-    cursor: pointer;
+    /* cursor: pointer; */
+}
+header .right .menu a{
+    font-size: 1.0rem;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* 본문 제목 */
